@@ -1,0 +1,22 @@
+{
+  "name": "users",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Cody <rockchalkwushock@iclould.com> (https://rockchalkwushock.github.io/rcws-development/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js",
+    "json:server": "json-server --watch db.json"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "express": "^4.15.2",
+    "express-graphql": "^0.6.3",
+    "graphql": "^0.9.1",
+    "json-server": "^0.9.6",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
